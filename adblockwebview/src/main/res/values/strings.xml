@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">WebViewer</string>
+
+    <!-- Menu -->
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_copy_link">Copy Link</string>
+    <string name="menu_open_with_other_browser">Open With Other Browser</string>
+    <string name="menu_share">Share</string>
+
+    <!-- Message -->
+    <string name="message_copy_to_clipboard">Copy To Clipboard</string>
+    <string name="message_invalid_url">Wrong URL</string>
+    <string name="message_download_started">Downloading…</string>
+
+    <!-- Dialog items -->
+    <string name="send_email">Send Email</string>
+    <string name="copy_link">Copy Link Address</string>
+    <string name="save_link">Save Link</string>
+    <string name="save_image">Save Image</string>
+    <string name="open_image">Open Image</string>
+
+    <string name="copy_email">Copy Email Address</string>
+    <string name="copy_link_text">Copy Link Text</string>
+
+    <string name="email">Email</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="select_image">Select Image</string>
+    <string name="loading">Loading…</string>
+    <string name="open">Open</string>
+    <string name="downloaded_message"> is downloaded</string>
+
+    <string name="write_permission_denied_title">Unable to save</string>
+    <string name="write_permission_denied_message">You have denied the permission for writing. Please go to app settings and allow permission</string>
+    <string name="dialog_dismiss">DISMISS</string>
+    <string name="dialog_settings">SETTINGS</string>
+    <string name="message_activity_not_found">Couldn\'t find application</string>
+</resources>

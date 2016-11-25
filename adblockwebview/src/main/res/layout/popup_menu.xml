@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="2dp"
+    app:cardUseCompatPadding="true"
+    app:contentPaddingBottom="@dimen/menuPaddingVertical"
+    app:contentPaddingTop="@dimen/menuPaddingVertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/popup_menu_rl_arrows"
+            android:layout_width="@dimen/menuWidth"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/popup_menu_ll_arrows"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/menuItemHeight"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/popup_menu_btn_back"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/menuItemHeight"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_light_theme"
+                    app:srcCompat="@drawable/back" />
+
+                <View
+                    android:layout_width="@dimen/dividerWidth"
+                    android:layout_height="40dp"
+                    android:background="@android:color/black" />
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/popup_menu_btn_forward"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/menuItemHeight"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_light_theme"
+                    app:srcCompat="@drawable/forward" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dividerHeight"
+                android:layout_below="@+id/popup_menu_ll_arrows"
+                android:background="@android:color/black" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/popup_menu_btn_refresh"
+            android:layout_width="@dimen/menuWidth"
+            android:layout_height="@dimen/menuItemHeight"
+            android:background="@drawable/selector_light_theme"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/menuPaddingHorizontal"
+            android:paddingRight="@dimen/menuPaddingHorizontal"
+            android:text="@string/menu_refresh"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/menuItemTextSize" />
+
+        <TextView
+            android:id="@+id/popup_menu_btn_copy_link"
+            android:layout_width="@dimen/menuWidth"
+            android:layout_height="@dimen/menuItemHeight"
+            android:background="@drawable/selector_light_theme"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/menuPaddingHorizontal"
+            android:paddingRight="@dimen/menuPaddingHorizontal"
+            android:text="@string/menu_copy_link"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/menuItemTextSize" />
+
+        <TextView
+            android:id="@+id/popup_menu_btn_open_with_other_browser"
+            android:layout_width="@dimen/menuWidth"
+            android:layout_height="@dimen/menuItemHeight"
+            android:background="@drawable/selector_light_theme"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/menuPaddingHorizontal"
+            android:paddingRight="@dimen/menuPaddingHorizontal"
+            android:text="@string/menu_open_with_other_browser"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/menuItemTextSize" />
+
+        <TextView
+            android:id="@+id/popup_menu_btn_share"
+            android:layout_width="@dimen/menuWidth"
+            android:layout_height="@dimen/menuItemHeight"
+            android:background="@drawable/selector_light_theme"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/menuPaddingHorizontal"
+            android:paddingRight="@dimen/menuPaddingHorizontal"
+            android:text="@string/menu_share"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/menuItemTextSize" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

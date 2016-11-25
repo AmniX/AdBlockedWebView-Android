@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progressBarHeight">1dp</dimen>
+    <dimen name="dividerWidth">1dp</dimen>
+    <dimen name="dividerHeight">1dp</dimen>
+
+    <dimen name="menuWidth">224dp</dimen>
+    <dimen name="menuPaddingVertical">8dp</dimen>
+    <dimen name="menuPaddingHorizontal">16dp</dimen>
+
+    <dimen name="menuItemTextSize">16dp</dimen>
+    <dimen name="menuItemHeight">48dp</dimen>
+    <dimen name="menuItemPaddingVertical">20dp</dimen>
+</resources>

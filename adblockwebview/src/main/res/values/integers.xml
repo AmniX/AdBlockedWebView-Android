@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="vibrator_duration">10</integer>
+    <integer name="snackbar_duration">5000</integer>
+</resources>

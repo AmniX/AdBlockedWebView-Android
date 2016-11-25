@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AdBlockWebView Demo</string>
+    <string name="action_settings">Settings</string>
+</resources>
