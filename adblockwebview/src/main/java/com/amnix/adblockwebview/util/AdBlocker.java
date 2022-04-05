@@ -2,7 +2,7 @@ package com.amnix.adblockwebview.util;
 
 import android.content.Context;
 import android.os.AsyncTask;
-import android.support.annotation.WorkerThread;
+import androidx.annotation.WorkerThread;
 import android.text.TextUtils;
 import android.util.Log;
 import android.webkit.WebResourceResponse;
