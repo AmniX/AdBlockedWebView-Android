@@ -14,7 +14,8 @@
         <activity
             android:name=".ui.AdBlocksWebViewActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            android:configChanges="orientation|screenSize" />
+            android:configChanges="orientation|screenSize"
+            android:exported="true"/>
     </application>
 
 </manifest>
