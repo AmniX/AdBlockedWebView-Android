@@ -114,8 +114,7 @@ public class AdBlocksWebViewActivity extends AppCompatActivity implements WebVie
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
-            getWindow().setStatusBarColor(getIntent().getIntExtra(EXTRA_COLOR, Color.BLACK));
+        getWindow().setStatusBarColor(getIntent().getIntExtra(EXTRA_COLOR, Color.BLACK));
         super.onCreate(savedInstanceState);
 
         //noinspection ConstantConditions
@@ -185,9 +184,7 @@ public class AdBlocksWebViewActivity extends AppCompatActivity implements WebVie
                     if (filePathCallbackLollipop == null) {
                         return;
                     }
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                        filePathCallbackLollipop.onReceiveValue(WebChromeClient.FileChooserParams.parseResult(resultCode, data));
-                    }
+                    filePathCallbackLollipop.onReceiveValue(WebChromeClient.FileChooserParams.parseResult(resultCode, data));
                     filePathCallbackLollipop = null;
                     break;
                 }
@@ -222,9 +219,7 @@ public class AdBlocksWebViewActivity extends AppCompatActivity implements WebVie
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-            webSettings.setDisplayZoomControls(false);
-        }
+        webSettings.setDisplayZoomControls(false);
         webSettings.setBuiltInZoomControls(true);
         webSettings.setSupportZoom(true);
         webSettings.setDomStorageEnabled(true);
