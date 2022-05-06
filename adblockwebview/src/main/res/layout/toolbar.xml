@@ -11,7 +11,7 @@
         android:background="#00000000"
         android:layout_height="?attr/actionBarSize">
 
-        <android.support.v7.widget.AppCompatImageButton
+        <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/toolbar_btn_close"
             style="@style/Widget.AppCompat.ActionButton"
             android:layout_width="@android:dimen/app_icon_size"
@@ -58,7 +58,7 @@
                 android:textSize="14dp" />
         </LinearLayout>
 
-        <android.support.v7.widget.AppCompatImageButton
+        <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/toolbar_btn_more"
             style="@style/Widget.AppCompat.ActionButton"
             android:layout_width="@android:dimen/app_icon_size"
